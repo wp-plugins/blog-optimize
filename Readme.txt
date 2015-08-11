@@ -1,7 +1,7 @@
 === Plugin Name ===
 Contributors: smyx
 Donate link: http://blogqun.com/blog-optimize.html
-Tags: comments,post,optimize,SMTP,CDN,sitemap,optimize,phpmailer,mail,database
+Tags: comments,post,optimize,SMTP,CDN,sitemap,phpmailer,mail,database
 Requires at least: 3.1
 Tested up to: 4.3
 Stable tag: 1.0
