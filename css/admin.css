@@ -1,0 +1,108 @@
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,figure,footer,header,hgroup,menu,nav,section,menu,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline}
+article,aside,figure,footer,header,hgroup,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;outline:none}
+ins{background-color:#ff9;color:#000;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted #000;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+a{text-decoration:none;color:#69c}
+a:hover{text-decoration:underline}
+h1,h2,h3,h4,h5,h6{font-weight:100;font-family:Arial,Helvetica,sans-serif}
+h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{color:#6a6a6a;text-decoration:none}
+h1 a:hover{color:#454545;text-decoration:none}
+h1{font-size:28px}
+h2{font-size:21px;margin-bottom:13px}
+h3{font-size:19px;font-weight:bold}
+h4{font-size:17px}
+h5{font-size:16px}
+h6{font-size:15px}
+hr{display:block;height:1px;border:0;border-top:1px solid #d5d5d5;margin:0;margin-top:3px;margin-bottom:3px;padding:0}
+p{margin-bottom:15px;margin-top:15px;line-height:1.7em}
+ol{margin-left:35px}
+strong{font-weight:bold}
+em{font-style:italic}
+body{font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#37436e;line-height:1.4em;background-color:##F9F9F9}
+.plugin_options input.inputs,.plugin_options select,.plugin_options input[type="file"],.plugin_options textarea{width:230px;padding:7px;float:right;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;background-image:url(../images/input_bg.png);background-repeat:repeat-x;border:1px solid #d5d5d5;float:left;font-size:11px;color:#656565}
+.plugin_options .custom-option input,.plugin_options .custom-option textarea{margin-bottom:10px;width:279px;*width:260px}
+.plugin_options textarea{height:100px}
+.plugin_options select{height:32px}
+.option h3{font-size:16px}
+input[type="file"]{line-height:30px}
+.option{min-height:35px;padding:20px 30px 20px 0;height:auto;overflow:hidden;z-index:10}
+.custom-option{min-height:35px;height:auto;overflow:hidden}
+.on-off{display:block;width:97px;height:31px;background-image:url(../images/on_off.png);background-repeat:no-repeat;float:left;cursor:pointer;margin-right:100px}
+.on-off span{display:block;width:46px;height:28px;background-image:url(../images/on_off_slide.png);background-repeat:no-repeat;margin:2px}
+.option-check{overflow:hidden}
+.text-tips{padding:5px 10px 0 0;float:left;color:#666}
+.text-tips code{background:#eaeaea;padding:1px 3px}
+.plugin_options label{display:block;cursor:pointer;line-height:20px;padding-bottom:9px}
+.plugin_options .label_check input{margin-right:5px}
+.plugin_options .label_check{padding-left:28px}
+.plugin_options .label_check{background:url(../images/check-off.png) no-repeat 0 2px}
+.plugin_options label.c_on{background:url(../images/check-on.png) no-repeat 0 2px}
+.plugin_options .label_check input{position:absolute;left:-9999px}
+.clearfix:after{font-size:0px;content:".";display:block;height:0px;visibility:hidden;clear:both}
+.plugin_options{width:840px;margin-top:20px}
+.plugin_options a{outline:none}
+.plugin_options .header{clear:both}
+.plugin_options .header_left,.plugin_options .header_right{float:left}
+.plugin_options .header_left{width:200px;height:129px;background-color:#353535;padding:0 20px}
+.plugin_options .header_right{height:129px;background-color:#F0F0F0;padding:0 0 0 30px}
+.plugin_options .header_right .description{float:left}
+.plugin_options h3,.plugin_options h5{font-family:'Open Sans',arial;font-weight:normal}
+.plugin_options h3{font-size:24px}
+.plugin_options h5{font-size:13px}
+.plugin_options .header_left h3{margin-top:35px;margin-bottom:0}
+.plugin_options .header_left h3 a{color:#FFF;text-decoration:none}
+.plugin_options .header_left h5{color:#A5A5A5;margin-top:15px;margin-bottom:45px}
+.plugin_options .header_right h3{margin-top:35px;margin-bottom:0}
+.plugin_options .header_right h5{color:#555;margin-top:15px}
+.plugin_options .header_right h3 a{color:#000;text-decoration:none}
+.plugin_options .header_left h3 a:hover,.plugin_options .header_right h3 a:hover{text-decoration:underline}
+.plugin_options .content{clear:both;background-color:#282828}
+.plugin_options .settings{float:right;display:none;width:550px;min-height:400px;border-top:1px solid #E0E0E0;padding:20px 20px 20px 30px;background-color:#FFF}
+.plugin_options .subsettings{display:none}
+.plugin_options .settings h3{margin-top:0;margin-bottom:20px}
+.plugin_options .settings h4{width:240px;float:left;padding-top:5px;font-size:14px}
+.plugin_options .menu{float:left;width:240px;background-color:#282828;padding:0;margin:0}
+.plugin_options .menu a{display:block;background:url("../images/wp_admin_map.png");height:16px;font-size:13px;font-family:arial;color:#D5D5D5;text-shadow:0px 1px 0px rgba(0,0,0,0.5);padding:22px 20px;text-decoration:none}
+.plugin_options .menu a:hover,.plugin_options .menu a.selected{background-position:0 -60px;color:#FFF;text-shadow:0px 1px 0px rgba(0,0,0,0.4)}
+.plugin_options .menu a span{float:right;width:16px;height:16px;background:url("../images/wp_admin_icon_map.png")}
+.plugin_options .menu a:hover .general,.plugin_options .menu a.selected .general{background-position:0 -16px}
+.plugin_options .menu a .social{background-position:-16px 0}
+.plugin_options .menu a:hover .social,.plugin_options .menu a.selected .social{background-position:-16px -16px}
+.plugin_options .menu a .header{background-position:-160px 0}
+.plugin_options .menu a:hover .header,.plugin_options .menu a.selected .header{background-position:-160px -16px}
+.plugin_options .menu a .refresh{background-position:-96px 0}
+.plugin_options .menu a:hover .refresh,.plugin_options .menu a.selected .refresh{background-position:-96px -16px}
+.plugin_options .menu a .setting{background-position:-112px 0}
+.plugin_options .menu a:hover .setting,.plugin_options .menu a.selected .setting{background-position:-112px -16px}
+.plugin_options .menu a .colors{background-position:-128px 0}
+.plugin_options .menu a:hover .colors,.plugin_options .menu a.selected .colors{background-position:-128px -16px}
+.plugin_options .menu a .contact_form{background-position:-160px 0}
+.plugin_options .menu a:hover .contact_form,.plugin_options .menu a.selected .contact_form{background-position:-160px -16px}
+.plugin_options .submenu{display:none;padding:0;margin:0}
+.plugin_options .submenu a{display:block;background:url("../images/wp_admin_map.png") 0 -120px;height:16px;font-size:13px;font-family:arial;color:#D5D5D5;text-shadow:0px 1px 0px rgba(0,0,0,0.5);padding:12px 10px 12px 37px;text-decoration:none}
+.plugin_options .submenu a:hover,.plugin_options .submenu a.selected{background-position:0 -160px}
+.plugin_options .footer{clear:both;height:86px}
+.plugin_options .footer_left{float:left;width:240px;background-color:#282828;border-top:1px solid #282828}
+.plugin_options .footer_right{float:right;width:590px;background-color:#F0F0F0;border-top:1px solid #E0E0E0}
+.plugin_options .button-submit{border:none;float:right;font-family:arial;font-size:13px;color:#D5D5D5;margin:24px 20px;padding:10px;text-shadow:0 1px 0 rgba(0,0,0,0.5);cursor:pointer;background-color:#444444}
+.plugin_options .button-submit:hover{color:#FFF;text-shadow:0px 1px 0px rgba(0,0,0,0.4);background-color:#1378BF}
+.plugin_options ul.social-list{margin:0px;padding:0px;margin-top:50px;margin-left:20px;list-style-type:none}
+.plugin_options ul.social-list li{float:left}
+.plugin_options ul.social-list li a{width:30px;height:30px;display:block;background-image:url('../images/wp_admin_map.png')}
+.plugin_options ul.social-list li a.social-list-qq{background-position:-150px -200px}
+.plugin_options ul.social-list li a.social-list-weibo{background-position:-60px -200px}
+.plugin_options ul.social-list li a.social-list-tqq{background-position:-90px -200px}
+.plugin_options ul.social-list li a.social-list-twitter{background-position:-30px -200px}
+.plugin_options ul.social-list li a.social-list-qq:hover{background-position:-150px -230px}
+.plugin_options ul.social-list li a.social-list-weibo:hover{background-position:-60px -230px}
+.plugin_options ul.social-list li a.social-list-tqq:hover{background-position:-90px -230px}
+.plugin_options ul.social-list li a.social-list-twitter:hover{background-position:-30px -230px}
